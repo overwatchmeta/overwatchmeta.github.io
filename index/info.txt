@@ -1,3 +1,12 @@
+3/25/17 To Do List:
+-add new section "changes this patch" done
+-balance changes done 
+-add orisa
+-add add back to top button 
+-make current patch have drop down 
+-redo table
+
+
 Maps
     Hanamura
         Mei+1(Defense point 1 and 2)
@@ -179,3 +188,4 @@ Heros
             
 soldier 
 reinhardt
+
