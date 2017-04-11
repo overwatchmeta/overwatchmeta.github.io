@@ -100,8 +100,8 @@ a{
 
 
 img{
-    width:100px;
-    height:150px;
+    width:66px;
+    height:99px;
     padding:15%;
 }
 table{
@@ -120,6 +120,7 @@ Flip stuff
 .character-container {
 	perspective: 1000px;
 	border:2px black solid;
+	border-bottom:none;
     margin:5px auto;
 }
 	/* flip the pane when hovered */
@@ -129,8 +130,8 @@ Flip stuff
 	}
 
 .character-container, .character-front, .character-back {
-	width: 180px;
-	height: 250px;
+	width: 130px;
+	height: 200px;
 }
 
 /* flip speed goes here */
@@ -167,7 +168,7 @@ Flip stuff
 .Pro-Con-List{
  text-align: center;
 color:#FAA02E;
- font-size: 16px;
+ font-size: 12px;
 }
 b{
 color:#FCBD49;

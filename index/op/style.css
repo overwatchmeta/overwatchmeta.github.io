@@ -19,7 +19,6 @@ body{
 .header{
    
     border:5px #2F2526 solid;
-
     display:flex;
     flex-wrap:wrap;
     height:100px;
@@ -90,7 +89,7 @@ a{
      color:#FAA02E;
 }
 .header-item{
- 
+	border-radius:25px;
     border:3px orange solid;
     padding:2%;
 	margin:auto;
