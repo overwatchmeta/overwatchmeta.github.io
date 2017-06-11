@@ -47,6 +47,8 @@ body{
     text-align: center;
     justify-content:space-between;
     flex-wrap:wrap;
+	border-top:3px black solid;
+	border-bottom:3px black solid;
 }
  h1{
     text-align: center;
@@ -62,7 +64,7 @@ body{
 }
 li{
 	 text-align: center;
-    font-size: 200%;
+    font-size: 150%;
     color:#FCBD49;
     font-family: sans-serif, "Arial";
 }
@@ -127,6 +129,7 @@ Flip stuff
 	perspective: 1000px;
 	border:2px black solid;
 	border-bottom:none;
+	border-top:none;
     margin:5px auto;
 }
 	/* flip the pane when hovered */
