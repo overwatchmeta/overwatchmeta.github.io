@@ -49,6 +49,7 @@ body{
     flex-wrap:wrap;
 	border-top:3px black solid;
 	border-bottom:3px black solid;
+	padding-bottom:5px;
 }
  h1{
     text-align: center;
