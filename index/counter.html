@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="icon" href="https://t7.rbxcdn.com/88ce445e0d7ea70d1e61df0976fd84fc" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" />
 	
 </script>
 <title>Overwatch Tier List</title>
@@ -30,7 +30,64 @@
 		
 		</div>
 		<div class="main">
+		<div class="tier">
+			<!-- Genji McCree Pharah Reaper Soldier: 76 Sombra Tracer Bastion Hanzo Junkrat Mei Torbjörn Widowmaker D. Va Orisa Reinhardt Roadhog Winston Zarya Ana Lúcio Mercy Symmetra Zenyatta-->
+			<center>
+				<select id="frm1" name="heroSelect">
+					<option value="Genji">Genji</option>
+					<option value="McCree">McCree</option>
+					<option value="Pharah">Pharah</option>
+					<option value="Reaper">Reaper</option>
+					<option value="Soldier">Soldier: 76</option>
+					<option value="Sombra">Sombra</option>
+					<option value="Tracer">Tracer</option>
+					<option value="Bastion">Bastion</option>
+					<option value="Hanzo">Hanzo</option>
+					<option value="Junkrat">Junkrat</option>
+					<option value="Mei">Mei</option>
+					<option value="Torbjorn">Torbjörn</option>
+					<option value="Widowmaker">Widowmaker</option>
+					<option value="D-va">D. Va</option>
+					<option value="Orisa">Orisa</option>
+					<option value="Reinhardt">Reinhardt</option>
+					<option value="Roadhog">Roadhog</option>
+					<option value="Winston">Winston</option>
+					<option value="Zarya">Zarya</option>
+					<option value="Ana">Ana</option>
+					<option value="Lucio">Lúcio</option>
+					<option value="Mercy">Mercy</option>
+					<option value="Symmetra">Symmetra</option>
+					<option value="Zenyatta">Zenyatta</option>
+				</select>
+				</center>
+				<br><br>
+				<center><button onclick="setUp()">Get counters</button></center>
+	</div>
+
+	<div class="tier" id="output" style="color:white">
+	
+	</div>
+<script>
+	//Genji McCree Pharah Reaper Soldier: 76 Sombra Tracer Bastion Hanzo Junkrat Mei Torbjörn Widowmaker D. Va Orisa Reinhardt Roadhog Winston Zarya Ana Lúcio Mercy Symmetra Zenyatta	
+	var genji={
+		"img":"../imgs/Genji.png",
+		"counters":["Winston","Zarya","Mei"],
+		"why":"Winston, Zarya, and Mei all can pass through Genji's deflect"
+	};
+
+
+	function setUp(){
+		var x = document.getElementById("frm1").value;
+		var img = document.createElement("img");
+		switch(x){
+		case "Genji":
+			img.src = genji.img;
+			document.getElementById("output").appendChild(img);
 			
+		}
+	}
+
+	</script>
 		</div>	
 		<div class="footer">
 			<p>Contact:<br>
