@@ -1,4 +1,16 @@
-
+var mybr = document.createElement('br');
+function loadCharInfo(){
+	loadTorb();
+}
+// load all torbs
+function loadTorb(){
+	for(var c:document.getElementById('torbjorn'))
+	if('character-back'==c.className){
+		
+			c.innerHTML = "1. High weapon damage"
+			c.appendChild(mybr);
+	}
+}
 /*
 <div class="character-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipper">
